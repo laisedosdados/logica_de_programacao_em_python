@@ -8,3 +8,6 @@ Se a quantidade de parcelas for igual ou maior que 4 e menor que 6, o Juros ser�
 Se a quantidade de parcelas for igual ou maior que 6 e menor que 9, o Juros será de 8% (8 / 100);
 Se a quantidade de parcelas for igual ou maior que 9 e menor que 13, o Juros será de 16% (16 / 100);
 Se a quantidade de parcelas for igual ou maior que 13, o Juros será de 32% (32 / 100);""")
+#IMPLEMENTANDO O VALOR DA PARCELA E O VALOR TOTAL PARCELADO
+valorDaParcela = (valordDoPedido * (1 + juros))/quantidadeDeParcelas
+valorTotalParcelado = valorDaParcela * quantidadeDeParcelas
